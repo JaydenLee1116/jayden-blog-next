@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔨 프로젝트 소개
 
-## Getting Started
+Next를 사용하여 만든 개인 블로그
 
-First, run the development server:
+# 🔨 프로젝트 배포 혹은 데모
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+작성 예정
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 🔨 프로젝트 주요 기능
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 검색 기능
+- 다크모드
+- 반응형
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# 🔨 프로젝트 구조 및 기술 스택
 
-## Learn More
+## 1. 프로젝트 구조
 
-To learn more about Next.js, take a look at the following resources:
+작성 예정
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 2. 주요 기술 스택
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+작성 예정
 
-## Deploy on Vercel
+ex)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| 목적 | 이름 | 버전 |
+| :-: | :-: | :-: |
+| 스타일 | [tailwindcss](https://tailwindcss.com/) | ^3.3.1 |
+| 환경 설정 | prettier | ^3.0.3 |
+| 환경 설정 | husky | ^8.0.3 |
+| 환경 설정 | lint-staged | ^14.0.1 |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# 🔨 프로젝트 특이사항
+
+작성 예정
+
+# 🔨 프로젝트 회고
+
+## 1. 좋았던 점
+
+## 2. 아쉬운 점
+
+# 🔨 만든이
+
+| Profile | Contact |
+| :-: | :-: |
+| <img src="https://avatars.githubusercontent.com/JaydenLee1116" width=150px> | 이메일: **vv55adss@gmail.com** <br/> 이력서: [**Jayden's Resume**](https://resume-jayden.notion.site/bc09960d516b4b2fbee4927692ae1096?pvs=4) <br/> 블로그: [**Jayden {do: smite}**](https://jaydenlee1116.github.io/) |
