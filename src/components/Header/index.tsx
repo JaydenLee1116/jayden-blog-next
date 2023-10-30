@@ -20,7 +20,7 @@ const pages = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 flex items-center justify-between">
+    <header className="sticky top-0 flex flex-col items-center justify-between md:flex-row">
       <Link href="/" className="flex gap-2">
         <Image src="/images/favicon.png" width="36" height="36" alt="favicon" priority />
         <h1 className="text-jayden-0 text-3xl font-bold">{'Jayden { do: smite }'}</h1>
