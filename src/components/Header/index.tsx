@@ -23,7 +23,9 @@ export default function Header() {
     <header className="sticky top-0 flex flex-col items-center justify-between md:flex-row">
       <Link href="/" className="flex gap-2">
         <Image src="/images/favicon.png" width="36" height="36" alt="favicon" priority />
-        <h1 className="text-jayden-0 text-3xl font-bold">{'Jayden { do: smite }'}</h1>
+        <h1 className="text-jayden-0 truncate whitespace-nowrap text-3xl font-bold">
+          {'Jayden { do: smite }'}
+        </h1>
       </Link>
       <div className="flex gap-8">
         <nav className="flex justify-between gap-6">
