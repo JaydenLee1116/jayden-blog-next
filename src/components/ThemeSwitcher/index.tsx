@@ -24,9 +24,9 @@ export default function ThemeSwitcher() {
   return (
     <button onClick={toggleTheme}>
       {isDarkMode ? (
-        <TbBulb size="24" className="stroke-slate-100" />
+        <TbBulbOff size="24" className="stroke-slate-100" />
       ) : (
-        <TbBulbOff size="24" className="stroke-slate-700" />
+        <TbBulb size="24" className="stroke-slate-700" />
       )}
     </button>
   );
