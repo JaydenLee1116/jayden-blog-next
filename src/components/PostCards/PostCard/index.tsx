@@ -8,7 +8,6 @@ import Chips from '@/components/Chips';
 const defaultThumbnail = '/images/thumbnails/default.png';
 
 export default function PostCard(post: Post) {
-  const tagList = post.tags.split(' ');
   const categoryList = post.categories.split(' ');
 
   return (
@@ -24,8 +23,7 @@ export default function PostCard(post: Post) {
         <h2 className="mb-1 truncate text-xl group-hover:text-jayden-0">{post.title}</h2>
         <div className="flex items-center justify-between">
           <div className="flex items-center justify-end gap-1">
-            {categoryList && <Chips contentList={categoryList} hasColor />}
-            {tagList && <Chips contentList={tagList} />}
+            {categoryList && <Chips contentList={categoryList} />}
           </div>
           <time dateTime={post.date} className="text-xs">
             {format(parseISO(post.date), 'LLLL d, yyyy')}
