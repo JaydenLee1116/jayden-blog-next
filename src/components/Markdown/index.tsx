@@ -14,7 +14,7 @@ export default function Markdown({ children }: Props) {
     headings: 'prose-headings:text-slate-700 dark:prose-headings:text-slate-100',
     code: 'prose-code:text-inflearn-0',
     blockquote: 'prose-blockquote:text-jayden-0',
-    a: 'prose-a:text-black-0 dark:prose-a:text-white',
+    a: 'prose-a:text-black-0 dark:prose-a:text-white prose-a:underline',
   };
 
   // TODO: prose-base, sm, lg, xl 등 사용하여 글 축소 및 확대 기능 고려해보기
