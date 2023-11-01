@@ -11,9 +11,10 @@ const config: Config = {
     extend: {
       colors: {
         'jayden-0': '#febd57',
+          'inflearn-0': '#1fc078',
       },
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography')],
 };
 export default config;

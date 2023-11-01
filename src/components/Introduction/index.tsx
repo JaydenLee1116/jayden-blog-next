@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import PingCircle from '../PingCircle';
+
 export default function Introduction() {
   return (
     <section className="flex w-full flex-col items-center justify-center gap-10">
@@ -32,31 +34,24 @@ export default function Introduction() {
       </section>
       <section className="flex gap-4">
         <div className="flex gap-1 font-semibold">
-          이메일: jayden.dev@gmail.com
-          <span className="relative flex h-2 w-2">
-            <span className="bg-jayden-0 absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
-            <span className="bg-jayden-0 relative inline-flex h-2 w-2 rounded-full"></span>
-          </span>
+          jayden.dev@gmail.com
+          <PingCircle status="ing" />
         </div>
         <Link
           href="https://github.com/JaydenLee1116"
           className="hover:text-jayden-0 flex gap-1 font-semibold"
+          target="_blank"
         >
           깃허브
-          <span className="relative flex h-2 w-2">
-            <span className="bg-jayden-0 absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
-            <span className="bg-jayden-0 relative inline-flex h-2 w-2 rounded-full"></span>
-          </span>
+          <PingCircle status="ing" />
         </Link>
         <Link
           href="https://linkedin.com/in/jaeho-jayden-‍lee-a0a902216"
           className="hover:text-jayden-0 flex gap-1 font-semibold"
+          target="_blank"
         >
           링크드인
-          <span className="relative flex h-2 w-2">
-            <span className="bg-jayden-0 absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
-            <span className="bg-jayden-0 relative inline-flex h-2 w-2 rounded-full"></span>
-          </span>
+          <PingCircle status="ing" />
         </Link>
       </section>
     </section>
