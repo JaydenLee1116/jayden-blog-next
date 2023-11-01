@@ -20,7 +20,7 @@ const pages = [
 
 export default function Header() {
   return (
-    <header className="sticky top-0 flex flex-col items-center justify-between md:flex-row">
+    <header className="sticky top-0 z-10 flex flex-col items-center justify-between bg-slate-100 bg-opacity-10 backdrop-blur-sm dark:bg-slate-700 dark:bg-opacity-10 sm:flex-row">
       <Link href="/" className="flex gap-2">
         <Image src="/images/favicon.png" width="36" height="36" alt="favicon" priority />
         <h1 className="truncate whitespace-nowrap text-3xl font-bold text-jayden-0">
