@@ -14,8 +14,6 @@ export const Post = defineDocumentType(() => ({
   },
   computedFields: {
     url: { type: 'string', resolve: post => `/posts/${post._raw.flattenedPath}` },
-    tagList: { type: 'string', resolve: post => post.tags.split(' ') },
-    categoryList: { type: 'string', resolve: post => post.categories.split(' ') },
   },
 }));
 
