@@ -16,8 +16,8 @@ export const metadata: Metadata = {
 
 export default function HomeLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ko" className={`${pretendard.className}`}>
-      <body className="mx-auto flex h-full w-full max-w-screen-2xl flex-col bg-slate-100 px-8 pt-6 text-slate-700 dark:bg-slate-700 dark:text-slate-100">
+    <html lang="ko" className={`${pretendard.className} no-scrollbar`}>
+      <body className="mx-auto flex h-full w-full max-w-screen-2xl flex-col bg-slate-100 px-8 pt-4 text-slate-700 dark:bg-slate-700 dark:text-slate-100">
         <Header />
         <main className="grow">{children}</main>
         <Footer />
