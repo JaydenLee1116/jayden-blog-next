@@ -21,9 +21,9 @@ const pages = [
 export default function Header() {
   return (
     <header className="sticky top-0 z-10 flex flex-col items-center justify-between bg-slate-100 bg-opacity-10 backdrop-blur-sm dark:bg-slate-700 dark:bg-opacity-10 sm:flex-row">
-      <Link href="/" className="flex gap-2">
+      <Link href="/" className="flex items-center gap-2">
         <Image src="/images/favicon.png" width="36" height="36" alt="favicon" priority />
-        <h1 className="truncate whitespace-nowrap text-3xl font-bold text-jayden-0">
+        <h1 className="truncate whitespace-nowrap text-2xl font-bold text-jayden-0 sm:text-3xl">
           {'Jayden { do: smite }'}
         </h1>
       </Link>
@@ -31,7 +31,7 @@ export default function Header() {
         <nav className="flex justify-between gap-6">
           {pages.map(page => (
             <Link href={page.href} key={page.href}>
-              <span className="text-2xl font-bold">{page.name}</span>
+              <span className="text-xl font-bold sm:text-2xl">{page.name}</span>
             </Link>
           ))}
         </nav>

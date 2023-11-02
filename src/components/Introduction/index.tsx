@@ -32,14 +32,14 @@ export default function Introduction() {
           방법을 선호합니다.
         </p>
       </section>
-      <section className="flex gap-4">
+      <section className="flex flex-col items-center sm:flex-row sm:gap-4">
         <div className="flex gap-1 font-semibold">
           jayden.dev@gmail.com
           <PingCircle status="ing" />
         </div>
         <Link
           href="https://github.com/JaydenLee1116"
-          className="hover:text-jayden-0 flex gap-1 font-semibold"
+          className="flex gap-1 font-semibold hover:text-jayden-0"
           target="_blank"
         >
           깃허브
@@ -47,7 +47,7 @@ export default function Introduction() {
         </Link>
         <Link
           href="https://linkedin.com/in/jaeho-jayden-‍lee-a0a902216"
-          className="hover:text-jayden-0 flex gap-1 font-semibold"
+          className="flex gap-1 font-semibold hover:text-jayden-0"
           target="_blank"
         >
           링크드인
