@@ -5,6 +5,7 @@ date: '2023-11-18 23:00:00'
 author: 제이든
 tags: 글 문서 요약
 categories: 스터디 책
+thumbnail: /images/thumbnails/book.png
 ---
 
 # 🎶 오브젝트
