@@ -34,9 +34,9 @@ export default function Markdown({ children }: Props) {
             <code {...props}>{children}</code>
           );
         },
-        img: image => (
-          <Image src={image.src || ''} alt={image.alt || ''} width={500} height={300} />
-        ),
+        img: image => {
+          return <Image src={image.src || ''} alt={image.alt || ''} width={500} height={500} />;
+        },
       }}
     >
       {children}
