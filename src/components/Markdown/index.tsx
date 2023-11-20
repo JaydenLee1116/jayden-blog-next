@@ -40,8 +40,6 @@ export default function Markdown({ children }: Props) {
 
           if (tagName === 'img') {
             const image = node.children[0];
-            console.log(node?.children[0]);
-
             return (
               <Image
                 src={image.properties.src}
