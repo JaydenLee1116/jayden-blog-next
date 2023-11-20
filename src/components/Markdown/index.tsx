@@ -34,22 +34,8 @@ export default function Markdown({ children }: Props) {
             <code {...props}>{children}</code>
           );
         },
-        p: paragraph => {
-          const { node }: any = paragraph;
-          const { tagName } = node?.children[0];
-
-          if (tagName === 'img') {
-            const image = node.children[0];
-            return (
-              <Image
-                src={image.properties.src}
-                width={500}
-                height={500}
-                alt={image.properties.alt}
-              />
-            );
-          }
-          return <p>{paragraph.children}</p>;
+        img: image => {
+          return <Image src={image.src || ''} alt={image.alt || ''} width={500} height={500} />;
         },
       }}
     >
