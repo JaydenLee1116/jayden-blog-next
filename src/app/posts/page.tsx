@@ -33,7 +33,7 @@ export default function PostsPage() {
   }, [searchValue, updateFilteredPosts]);
 
   return (
-    <section className="flex min-h-full flex-col gap-y-4 px-10 pt-10">
+    <section className="flex min-h-full flex-col gap-y-4 px-10">
       <SearchBar value={searchValue} onChange={changeSearchValue} />
       <PostCards posts={filteredPosts} />
     </section>
