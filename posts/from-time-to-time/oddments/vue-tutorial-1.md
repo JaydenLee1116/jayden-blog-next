@@ -297,8 +297,6 @@ function removeTodo(todo) {
 
 React와의 가장 큰 차이점은 `addTodo()` 함수에서 배열(객체)을 `mutable`하게도 다룰 수 있다는 점이다.
 
-# 📝 회고
-
 ## 참고
 
 - [Vue.js](https://vuejs.org/)
