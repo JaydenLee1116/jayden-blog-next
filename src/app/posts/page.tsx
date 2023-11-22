@@ -6,7 +6,7 @@ import { allPosts } from 'contentlayer/generated';
 import { debounce } from 'lodash';
 
 import PostCards from '@/components/PostCards';
-import SearchBar from '@/components/\bSearchBar';
+import SearchBar from '@/components/SearchBar';
 
 export default function PostsPage() {
   const initialPosts = allPosts.sort((a, b) => compareDesc(new Date(a.date), new Date(b.date)));
