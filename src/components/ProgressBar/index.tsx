@@ -16,7 +16,7 @@ export default function ProgressBar() {
             style={{
               transform: `translateX(${completion - 104}%)`,
             }}
-            className="absolute bottom-0 h-1 w-screen bg-jayden-0 transition-transform duration-75"
+            className="absolute bottom-0 h-1 w-screen bg-jayden-0 transition-transform duration-150"
           />
         </div>
       )}

@@ -4,7 +4,6 @@ export function useReadingProgress() {
   const [completion, setCompletion] = useState(0);
   useEffect(() => {
     function updateScrollCompletion() {
-      // see how much we have scrolled
       const currentProgress = window.scrollY;
 
       let scrollHeight = document.body.scrollHeight - window.innerHeight;
