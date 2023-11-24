@@ -10,7 +10,7 @@ export default function PostCards({ posts }: Props) {
   return (
     <>
       {posts.length ? (
-        <ul className="grid grid-cols-1 place-content-between gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <ul className="grid grid-cols-1 place-content-between gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
           {posts.map(post => (
             <PostCard key={post._id} {...post} />
           ))}
