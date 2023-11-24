@@ -21,8 +21,8 @@ const pages = [
 
 export default function Header() {
   return (
-    <div className="sticky top-0 z-10 flex flex-col ">
-      <header className="sticky top-0 z-10 flex h-20 flex-col items-center justify-between bg-slate-100 bg-opacity-10 backdrop-blur-sm dark:bg-slate-700 dark:bg-opacity-10 sm:flex-row">
+    <header className="sticky top-0 z-10 flex h-fit flex-col justify-around">
+      <div className="flex h-20 flex-col items-center justify-center bg-slate-100 bg-opacity-10 backdrop-blur-sm dark:bg-slate-700 dark:bg-opacity-10 sm:flex-row sm:justify-between">
         <Link href="/" className="flex items-center gap-2">
           <Image src="/images/favicon.png" width="36" height="36" alt="favicon" priority />
           <h1 className="truncate whitespace-nowrap text-2xl font-bold text-jayden-0 sm:text-3xl">
@@ -39,8 +39,8 @@ export default function Header() {
           </nav>
           <ThemeSwitcher />
         </div>
-      </header>
+      </div>
       <ProgressBar />
-    </div>
+    </header>
   );
 }
