@@ -4,6 +4,7 @@ import localFont from 'next/font/local';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import ScrollBackToTopButton from '@/components/BackToTopButton';
 
 export const pretendard = localFont({
   src: '../../public/fonts/PretendardVariable.woff2',
@@ -21,6 +22,7 @@ export default function HomeLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="grow">{children}</main>
         <Footer />
+        <ScrollBackToTopButton />
       </body>
     </html>
   );
