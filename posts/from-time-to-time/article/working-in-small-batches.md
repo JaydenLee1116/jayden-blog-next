@@ -47,6 +47,7 @@ Working in small batches has many benefits:
 - 조직이 매몰 비용의 오류에 빠지는 것을 방지합니다.
 
 > 매몰 비용: 이미 발생해서 회수할 수 없는 비용. 즉, 현재 혹은 미래 경제적 가치가 0이기에 고려할 필요가 없는 비용. 사람이 통제할 수 있는 비용이 아니다.
+>
 > 매몰 비용의 오류: 기회 비용과 매몰 비용을 구분하지 못하는 것. 예시로 들자면 도박 중독자들이 계속해서 도박을 하면서 이전에 잃은 돈(매몰 비용)을 포기하지 않고 "이번엔 정말 돈을 딸 수 있어. 내가 잃은 게 얼마인데..!" 하는 마음으로 더 깊이 도박에 파고드는 행위. 잃어버린 돈은 이미 돌릴 수 없는 매몰 비용인데 마치 이 매몰 비용을 기회 비용으로 생각하며 계속 임하게 되는 오류.
 
 You can apply the small batches approach at the feature and the product level. As an illustration, a minimum viable product, or MVP, is a prototype of a product with just enough features to enable validated learning about the product and its business model.
