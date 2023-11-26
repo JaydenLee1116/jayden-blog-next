@@ -12,7 +12,7 @@ thumbnail: /images/thumbnails/article.png
 
 이 글은 워니님께서 공유해주신 [Working In Small Batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)를 읽고 번역하여 정리한 글입니다. 원문을 읽고 싶으신 분들은 링크를 참고해주세요.
 
-> 원문에서는 `Working In Small Batches`를, `작은 배치`라는 표현이 조금 어색하여 `작은 단위로 작업하기`로 번역하였습니다.
+> 원문의 `Working In Small Batches`를 번역 시, `작은 배치로 작업하기`라는 표현이 다소 어색하여 `작은 단위로 작업하기`로 번역하였습니다.
 >
 > 혹시 번역에 오류가 있거나, 더 좋은 번역이 있다면 언제든지 알려주세요. 감사합니다. 🙏
 
