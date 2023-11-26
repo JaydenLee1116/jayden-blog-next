@@ -11,8 +11,7 @@ export default function ScrollBackToTopButton() {
     } else {
       setIsScrollTop(true);
     }
-    console.log(isScrollTop);
-  }, [isScrollTop]);
+  }, []);
 
   const scrollTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
