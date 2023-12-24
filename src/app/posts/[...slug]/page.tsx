@@ -2,6 +2,7 @@ import { format, parseISO } from 'date-fns';
 import { allPosts } from 'contentlayer/generated';
 import { notFound } from 'next/navigation';
 import Markdown from '@/components/Markdown';
+import Comment from '@/components/Comment';
 
 export const generateStaticParams = async () => {
   return allPosts.map(post => ({ slug: post._raw.flattenedPath.split('/') }));
@@ -32,6 +33,7 @@ export default function PostPage({ params }: { params: { slug: string[] } }) {
         <h1 className="text-3xl font-bold">{post.title}</h1>
       </div>
       <Markdown>{post.body.raw}</Markdown>
+      <Comment />
     </article>
   );
 }

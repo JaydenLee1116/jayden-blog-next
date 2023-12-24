@@ -10,10 +10,6 @@ const pages = [
     href: '/posts',
   },
   {
-    name: 'projects',
-    href: '/projects',
-  },
-  {
     name: 'resume',
     href: '/resume',
   },
