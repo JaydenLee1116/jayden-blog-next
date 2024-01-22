@@ -1,7 +1,7 @@
 ---
 emoji: 📦
 title: JSDoc 파헤치기
-date: '2024-01-03 22:30:00'
+date: '2024-01-22 22:30:00'
 author: 제이든
 tags:
 categories: 잡동사니
