@@ -11,7 +11,7 @@ export default function PostCard(post: Post) {
   const categoryList = post.categories.split(' ');
 
   return (
-    <li className="rounded-lg border border-slate-700 p-2 hover:border-jayden-0 dark:border-slate-100">
+    <li className="rounded-lg border border-slate-700 p-2 hover:border-jayden-0 dark:border-slate-100 dark:hover:border-jayden-0">
       <Link href={post.url} className="group flex h-full flex-col justify-center">
         <Image
           className="p-8"
