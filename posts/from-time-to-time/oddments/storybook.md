@@ -164,10 +164,6 @@ export const Small: Story = {
 };
 ```
 
-작성한 Story를 아래와 같이 GUI로 확인하고 각 props를 실시간으로 변경하면서 확인할 수 있습니다.
-
-![스크린샷 2023-12-26 18.25.25.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/86367a88-fb97-4bbb-9eb5-83847bd12eb7/498b8a3b-4641-46e2-8164-0ee98d541356/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-12-26_18.25.25.png)
-
 # Storybook config
 
 ## 1. `.storybook/main.ts`
