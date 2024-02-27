@@ -34,7 +34,7 @@ export default function Introduction() {
       </section>
       <section className="flex flex-col items-center sm:flex-row sm:gap-4">
         <div className="flex gap-1 font-semibold">
-          jayden.dev@gmail.com
+          jaydenlee.dev@gmail.com
           <PingCircle status="ing" />
         </div>
         <Link
