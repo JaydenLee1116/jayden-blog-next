@@ -1,17 +1,27 @@
-import { Post } from 'contentlayer/generated';
+import { allPosts } from 'contentlayer/generated';
+import { compareDesc } from 'date-fns';
 
 import PostCard from './PostCard';
 
 type Props = {
-  posts: Post[];
+  query: string;
 };
 
-export default function PostCards({ posts }: Props) {
+export default function PostCards({ query }: Props) {
+  const sortedPostsByDate = allPosts.sort((a, b) =>
+    compareDesc(new Date(a.date), new Date(b.date)),
+  );
+  const filteredPosts = sortedPostsByDate.filter(
+    post =>
+      post.title.toLowerCase().includes(query.toLowerCase()) ||
+      post.body.raw.toLowerCase().includes(query.toLowerCase()),
+  );
+
   return (
     <>
-      {posts.length ? (
+      {filteredPosts.length ? (
         <ul className="grid grid-cols-1 place-content-between gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
-          {posts.map(post => (
+          {filteredPosts.map(post => (
             <PostCard key={post._id} {...post} />
           ))}
         </ul>
