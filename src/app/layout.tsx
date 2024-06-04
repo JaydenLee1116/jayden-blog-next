@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 import './globals.css';
 import Header from '@/components/Header';
@@ -24,6 +25,7 @@ export default function HomeLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <ScrollBackToTopButton />
       </body>
+      <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_ID as string} />
     </html>
   );
 }
