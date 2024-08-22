@@ -22,7 +22,7 @@ export default function ThemeSwitcher() {
   };
 
   return (
-    <button onClick={toggleTheme}>
+    <button onClick={toggleTheme} className="hover:opacity-70">
       {isDarkMode ? (
         <TbBulbOff size="24" className="stroke-slate-100" />
       ) : (
