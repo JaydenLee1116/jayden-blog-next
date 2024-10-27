@@ -7,7 +7,7 @@ type Props = {
 
 export default function Chips({ contentList, hasColor }: Props) {
   return (
-    <ul className="flex flex-wrap gap-1">
+    <ul className="flex list-none flex-wrap gap-1">
       {contentList.map(content => (
         <Chip key={content} content={content} hasColor={hasColor} />
       ))}

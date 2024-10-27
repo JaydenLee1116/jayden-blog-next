@@ -7,7 +7,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ScrollBackToTopButton from '@/components/BackToTopButton';
 
-export const pretendard = localFont({
+const pretendard = localFont({
   src: '../../public/fonts/PretendardVariable.woff2',
 });
 

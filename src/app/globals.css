@@ -19,3 +19,22 @@ html {
     scrollbar-width: none; /* Firefox */
   }
 }
+
+/* Set default styles for ul and ol elements */
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+/* Custom styles for blockquotes */
+blockquote {
+  border-left: 4px solid #4b5563; /* Tailwind's gray-300 */
+}
+
+/* Dark mode styles for blockquotes */
+.dark blockquote {
+  border-left: 4px solid #d1d5db; /* Tailwind's gray-700 */
+}
