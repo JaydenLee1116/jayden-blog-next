@@ -1,4 +1,5 @@
 'use client';
+
 import ReactMarkdown from 'react-markdown';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { materialDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
@@ -12,9 +13,10 @@ type Props = {
 export default function Markdown({ children }: Props) {
   const markdownClassName = {
     headings: 'prose-headings:text-slate-700 dark:prose-headings:text-slate-100',
-    code: 'prose-code:text-inflearn-0',
-    blockquote: 'prose-blockquote:text-jayden-0',
-    a: 'prose-a:text-black-0 dark:prose-a:text-white prose-a:underline',
+    code: 'prose-code:text-disquiet-0 dark:prose-code:text-inflearn-0',
+    blockquote:
+      'prose-blockquote:text-slate-700 dark:prose-blockquote:text-slate-100 prose-blockquote:bg-slate-200 dark:prose-blockquote:bg-slate-600',
+    a: 'prose-a:text-blue-500 dark:prose-a:text-blue-400 prose-a:underline',
     pre: 'prose-pre:w-full prose-pre:overflow-x-auto prose-pre:border prose-pre:border-slate-700 dark:prose-pre:border-slate-100 prose-pre:rounded prose-pre:my-4 prose-pre:py-2 prose-pre:px-4 prose-pre:shadow',
   };
 

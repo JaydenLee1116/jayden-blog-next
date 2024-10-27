@@ -14,8 +14,8 @@ export default function PingCircle({ status = 'ing' }: Props) {
 
   return (
     <span className="relative flex h-2 w-2">
-      <span className="bg-jayden-0 absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
-      <span className="bg-jayden-0 relative inline-flex h-2 w-2 rounded-full"></span>
+      <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-jayden-0 opacity-75"></span>
+      <span className="relative inline-flex h-2 w-2 rounded-full bg-jayden-0"></span>
     </span>
   );
 }

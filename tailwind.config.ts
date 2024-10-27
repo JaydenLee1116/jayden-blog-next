@@ -12,6 +12,7 @@ const config: Config = {
       colors: {
         'jayden-0': '#febd57',
         'inflearn-0': '#1fc078',
+        'disquiet-0': '#6d55ff',
       },
     },
   },
