@@ -34,7 +34,7 @@ categories: 보름칼럼
 
 ## 👋 글또 OT
 
-![HI, 글또](/images/posts/steadily/full-moon-column/promise/1.png)
+![HI, 글또](/images/logs/full-moon-column/promise/1.png)
 
 1~2주마다 칼럼 형태의 글을 작성하려던 중 글또를 발견하게 되었습니다. 마침 글또의 모집 알림이 왔고, 고민도 없이 글또에 신청서 및 자기소개서 등을 제출하여 이렇게 OT에도 참여하였습니다.
 글또의 OT는 온라인으로 약 1시간 정도 진행되었는데, 생각했던 것보다 방대하고 좋은 내용들을 많이 다뤄주셔서 뜻깊은 시간을 보낼 수 있었습니다. 그 중 인상깊었던 내용 2가지를 이야기해보려 합니다.
@@ -71,7 +71,7 @@ categories: 보름칼럼
 그 사람만의 프로세스를 만들어서 진행하면 된다`는 내용이 기억에 남습니다. 성윤님께서 본인을 알기 위해 꾸준히 성격 유형 검사를 하신다는 이야기가 흥미로웠습니다.
 그 과정에서 스스로의 변화에 대해 알아차릴 수 있고 메타인지를 기를 수 있다는 생각에 `저 습관은 배워야겠다` 다짐할 수 있었습니다. 😄
 
-![Big-5](/images/posts/steadily/full-moon-column/promise/2.png)
+![Big-5](/images/logs/full-moon-column/promise/2.png)
 
 성윤님께서 추천해주셔서 해본 [Big-5 성격 검사](https://together.kakao.com/big-five) 결과입니다.<br/>
 조금은 끼워맞추는 감도 있지만, MBTI인 ENTJ에서 나오는 결과와 유사해서 신기하기도 하고 흥미롭기도 했습니다.
@@ -82,7 +82,7 @@ categories: 보름칼럼
 
 ## 🙏 다짐글
 
-![객체지향의 사실과 오해](/images/posts/steadily/full-moon-column/promise/3.jpg)
+![객체지향의 사실과 오해](/images/logs/full-moon-column/promise/3.jpg)
 
 글또를 참여하게 된 여러 이유들 중 하나의 이유를 꼽으라고 한다면 자신있게 조영호님의 [객체지향의 사실과 오해](https://product.kyobobook.co.kr/detail/S000001628109) 책 덕분이라고 말할 수 있습니다.
 그 동안 소설부터 자기개발서까지 여러 책을 읽으면서 `이 책 정말 좋다.`하는 책들은 많았지만, `나도 이렇게 글 써보고싶다.`라는 생각이 들게 해준건 이 책이 처음이었습니다.

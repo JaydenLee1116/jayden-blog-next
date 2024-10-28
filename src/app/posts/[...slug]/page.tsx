@@ -3,13 +3,16 @@ import { allPosts } from 'contentlayer/generated';
 import { notFound } from 'next/navigation';
 import Markdown from '@/components/Markdown';
 import Comment from '@/components/Comment';
+import { ContentPath } from '@/enums';
 
 export const generateStaticParams = async () => {
   return allPosts.map(post => ({ slug: post._raw.flattenedPath.split('/') }));
 };
 
 export const generateMetadata = ({ params }: { params: { slug: string[] } }) => {
-  const post = allPosts.find(post => post._raw.flattenedPath === params.slug.join('/'));
+  const post = allPosts.find(
+    post => post._raw.flattenedPath === ContentPath.Posts + params.slug.join('/'),
+  );
   if (!post) {
     console.error(`Post not found for slug: ${params.slug.join('/')}`);
     notFound();
@@ -18,7 +21,9 @@ export const generateMetadata = ({ params }: { params: { slug: string[] } }) => 
 };
 
 export default function PostPage({ params }: { params: { slug: string[] } }) {
-  const post = allPosts.find(post => post._raw.flattenedPath === params.slug.join('/'));
+  const post = allPosts.find(
+    post => post._raw.flattenedPath === ContentPath.Posts + params.slug.join('/'),
+  );
   if (!post) {
     console.error(`Post not found for slug: ${params.slug.join('/')}`);
     notFound();

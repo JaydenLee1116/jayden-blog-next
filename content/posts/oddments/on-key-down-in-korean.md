@@ -58,20 +58,20 @@ return (
 
 아래는 `ㅇ`만 입력 후, `Enter`를 눌렀을 때의 콘솔이다.
 
-![콘솔 3개 사진](/images/posts/from-time-to-time/oddments/on-key-down/1.png)
+![콘솔 3개 사진](/images/posts/oddments/on-key-down/1.png)
 
 분명 `ㅇ`과 `Enter`만 했는데, event 객체는 3개가 찍혀있다. 3개의 객체를 좀더 자세히 살펴보자.
 
 순서대로 객체의 이미지를 나열하면
 
 - `ㅇ-229`
-  ![ㅇ-229](/images/posts/from-time-to-time/oddments/on-key-down/2.png)
+  ![ㅇ-229](/images/posts/oddments/on-key-down/2.png)
 
 - `Enter-229`
-  ![Enter-229](/images/posts/from-time-to-time/oddments/on-key-down/3.png)
+  ![Enter-229](/images/posts/oddments/on-key-down/3.png)
 
 - `Enter-13`
-  ![Enter-13](/images/posts/from-time-to-time/oddments/on-key-down/4.png)
+  ![Enter-13](/images/posts/oddments/on-key-down/4.png)
 
 뭔가 이상하다. 첫번째 `ㅇ`과 두번째 `Enter`가 분명히 다른 키인데 왜 같은 keyCode 값을 갖는걸까?
 

@@ -48,7 +48,7 @@ function sayHello(name, age) {
 
 위와 같이 작성하고 함수명에 마우스를 올려보면 아래와 같이 표시된다.
 
-![JSDoc - sayHello](/images/posts/from-time-to-time/oddments/jsdoc/1.png)
+![JSDoc - sayHello](/images/posts/oddments/jsdoc/1.png)
 
 사실 혼자 공부하거나 프로젝트할 때, 알고리즘을 풀 때는 큰 의미가 있나 싶었는데, 현업에서 마주한 거대한 코드베이스를 보면서 이게 얼마나 유용한지 알게 되었다.
 

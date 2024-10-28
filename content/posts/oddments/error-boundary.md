@@ -127,11 +127,11 @@ export const Temp = () => {
 
 위의 코드를 실행하면 아래와 같은 화면을 볼 수 있다.
 
-![error-boundary-1](/images/posts/from-time-to-time/oddments/error-boundary/1.png)
+![error-boundary-1](/images/posts/oddments/error-boundary/1.png)
 
 그리고 이 에러 iframe을 닫으면 아래와 같이 fallback UI가 렌더링된 것을 볼 수 있다.
 
-![error-boundary-2](/images/posts/from-time-to-time/oddments/error-boundary/2.png)
+![error-boundary-2](/images/posts/oddments/error-boundary/2.png)
 
 위와 같이 우리가 원하는 컴포넌트가 렌더링된 것을 확인할 수 있다. 그런데 client 단의 에러가 아니라 서버와의 통신에서 발생하는 에러라면 어떻게 해야할까?
 
@@ -157,7 +157,7 @@ export const Temp = () => {
 
 그럼 마찬가지로 에러 iframe이 보인다. 그런데 이를 닫으면 아래와 같이 그냥 정상적인 화면이 렌더링되는 것을 볼 수 있다.
 
-![error-boundary-3](/images/posts/from-time-to-time/oddments/error-boundary/3.png)
+![error-boundary-3](/images/posts/oddments/error-boundary/3.png)
 
 분명히 에러는 발생했다. 그런데 왜 우리가 전달한 fallback UI가 아니라 정상적인 화면이 렌더링되어있는 것일까???
 
