@@ -29,7 +29,7 @@ Next.js를 통해 한층 더 추상화된 React를 사용하다보니, 아이러
 
 버전 16.3의 리액트 패키지 구조는 아래와 같다.
 
-![리액트 패키지 폴더 구조](/images/posts/from-time-to-time/study/in-depth-react/1.png)
+![리액트 패키지 폴더 구조](/images/posts/study/in-depth-react/1.png)
 
 아래에도 나오겠지만, 일단 눈에 띄는 건 `react`, `react-dom`, `react-reconciler`, `scheduler`, `react-cache`, `events` 정도가 되지 않을까 싶다.
 

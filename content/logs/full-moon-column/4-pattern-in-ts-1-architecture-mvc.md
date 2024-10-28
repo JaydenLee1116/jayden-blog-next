@@ -62,7 +62,7 @@ categories: 보름칼럼
 
 아래 그림은 `마틴 파울러 - 소프트웨어 아키텍처의 중요성` 영상에서 나오는 자료이다.
 
-![아키텍처 유무 시간 그래프](/public/images/posts/steadily/full-moon-column/pattern-in-ts-1-architecture-mvc/1.png)
+![아키텍처 유무 시간 그래프](/public/images/logs/full-moon-column/pattern-in-ts-1-architecture-mvc/1.png)
 
 아키텍처 설계가 되어있지 않은채로 개발을 진행하게 되면 단기적으로는 많은 기능들을 구현할 수 있더라도 결국에 시간이 지나면서 기능을 추가하고 관리하기 어려워진다. 즉, 유지보수가 힘들어지고 점점 더 많은 시간과 비용이 발생하게 된다. 반면, 처음부터 아키텍처를 잘 정의하고 개발을 한다면 아키텍처를 설계하는 초기 시간과 비용이 있겠지만 추후에 기능을 더하고 관리함에 있어서 훨씬 수월해진다.
 
@@ -70,11 +70,11 @@ categories: 보름칼럼
 
 - 아키텍처가 적용되기 전
 
-![아키텍처 적용 전](/public/images/posts/steadily/full-moon-column/pattern-in-ts-1-architecture-mvc/2.png)
+![아키텍처 적용 전](/public/images/logs/full-moon-column/pattern-in-ts-1-architecture-mvc/2.png)
 
 - 아키텍처가 적용된 후
 
-![아키텍처 적용 후](/public/images/posts/steadily/full-moon-column/pattern-in-ts-1-architecture-mvc/3.png)
+![아키텍처 적용 후](/public/images/logs/full-moon-column/pattern-in-ts-1-architecture-mvc/3.png)
 
 위의 사진을 보면 어떨까? 누가봐도 후자의 사진이 더 추후 물건을 더하거나 제거하는 게 쉽고 편해보인다.(물론 후자의 사진도 중앙의 포스트잇에 대한 의존성이 너무 큰 문제가 있긴 하다.)
 
@@ -101,7 +101,7 @@ categories: 보름칼럼
 - 뷰(View) - 사용자가 볼 수 있는 화면을 담당한다.
 - 컨트롤러(Controller) - 모델과 뷰 사이에서 이 둘을 관리하여 의존성을 낮추는 역할을 한다.
 
-![MVC패턴](/public/images/posts/steadily/full-moon-column/pattern-in-ts-1-architecture-mvc/4.png)
+![MVC패턴](/public/images/logs/full-moon-column/pattern-in-ts-1-architecture-mvc/4.png)
 
 사실 부끄럽지만, 아키텍처의 개념이 이렇게 거대한 것인줄 모르고 이번 프로젝트에서 각 컴포넌트를 MVC 패턴으로 개발해보았다. 이 때, Controller의 역할을 Component라고 부르기로 하고 Component에서 Model과 View를 이용하여 하나의 작은 컴포넌트를 만드는 설계를 해보았다.
 
@@ -256,7 +256,7 @@ export class App {
 
 위의 결과물을 살펴보자면
 
-![Header 컴포넌트](/public/images/posts/steadily/full-moon-column/pattern-in-ts-1-architecture-mvc/5.png)
+![Header 컴포넌트](/public/images/logs/full-moon-column/pattern-in-ts-1-architecture-mvc/5.png)
 
 이런 식의 Header가 완성된다. 이제 여기에 또 자식 컴포넌트를 붙여서 하나의 큰 프로젝트를 설계할 수 있다.
 
