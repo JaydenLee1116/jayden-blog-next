@@ -33,24 +33,28 @@ export default function Introduction() {
         </p>
       </section>
       <section className="flex flex-col items-center sm:flex-row sm:gap-4">
-        <div className="flex gap-1 font-semibold">
-          jaydenlee.dev@gmail.com
-          <PingCircle status="ing" />
-        </div>
         <Link
           href="https://github.com/JaydenLee1116"
-          className="flex gap-1 font-semibold hover:text-jayden-0"
+          className="flex gap-1 font-semibold underline hover:text-jayden-0"
           target="_blank"
         >
           Github
           <PingCircle status="ing" />
         </Link>
         <Link
-          href="https://linkedin.com/in/jaeho-jayden-‍lee-a0a902216"
-          className="flex gap-1 font-semibold hover:text-jayden-0"
+          href="https://linkedin.com/in/jaydenlee1116"
+          className="flex gap-1 font-semibold underline hover:text-jayden-0"
           target="_blank"
         >
           LinkedIn
+          <PingCircle status="ing" />
+        </Link>
+        <Link
+          href="mailto:jaydenlee.dev@gmail.com"
+          className="flex gap-1 font-semibold underline hover:text-jayden-0"
+          target="_blank"
+        >
+          jaydenlee.dev@gmail.com
           <PingCircle status="ing" />
         </Link>
       </section>
