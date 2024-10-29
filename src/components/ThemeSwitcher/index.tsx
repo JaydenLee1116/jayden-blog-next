@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { TbBulb, TbBulbOff } from 'react-icons/tb';
+import { changeGiscusTheme } from '@/utils/changeGiscusTheme';
 
 export default function ThemeSwitcher() {
   let htmlEl: HTMLElement;
@@ -15,9 +16,11 @@ export default function ThemeSwitcher() {
     if (htmlEl.classList.contains('dark')) {
       htmlEl.classList.remove('dark');
       setIsDarkMode(false);
+      changeGiscusTheme('light_high_contrast');
     } else {
       htmlEl.classList.add('dark');
       setIsDarkMode(true);
+      changeGiscusTheme('dark_high_contrast');
     }
   };
 
