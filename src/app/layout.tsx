@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function HomeLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="ko" className={`${pretendard.className} no-scrollbar`}>
-      <body className="mx-auto flex h-fit min-h-screen w-full flex-col justify-between bg-slate-100 px-[4%] text-slate-700 dark:bg-slate-700 dark:text-slate-100">
+      <body className="mx-auto flex h-fit min-h-screen w-full flex-col justify-between bg-slate-100 px-[4%] pb-4 text-slate-700 dark:bg-slate-700 dark:text-slate-100">
         <Header />
         <main className="grow">{children}</main>
         <Footer />

@@ -8,8 +8,8 @@ export default function Introduction() {
     <section className="flex w-full flex-col items-center justify-center gap-10">
       <Image
         src="/images/profile.png"
-        width={360}
-        height={360}
+        width={300}
+        height={300}
         alt="my-profile"
         className="rounded-2xl"
         priority
@@ -42,7 +42,7 @@ export default function Introduction() {
           className="flex gap-1 font-semibold hover:text-jayden-0"
           target="_blank"
         >
-          깃허브
+          Github
           <PingCircle status="ing" />
         </Link>
         <Link
@@ -50,7 +50,7 @@ export default function Introduction() {
           className="flex gap-1 font-semibold hover:text-jayden-0"
           target="_blank"
         >
-          링크드인
+          LinkedIn
           <PingCircle status="ing" />
         </Link>
       </section>
