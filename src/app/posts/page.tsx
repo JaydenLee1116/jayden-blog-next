@@ -1,4 +1,4 @@
-import PostCards from 'src/components/ContentCards';
+import ContentCards from 'src/components/ContentCards';
 import SearchBar from '@/components/SearchBar';
 import { allPosts } from 'contentlayer/generated';
 
@@ -12,7 +12,7 @@ export default function PostsPage({ searchParams }: Props) {
   return (
     <section className="flex min-h-full flex-col gap-y-4 px-10">
       <SearchBar />
-      <PostCards query={searchParams.query ?? ''} allContent={allPosts} />
+      <ContentCards query={searchParams.query ?? ''} allContent={allPosts ?? []} />
     </section>
   );
 }
